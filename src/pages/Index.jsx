@@ -1,13 +1,14 @@
 import React from 'react';
 import { FacebookIcon } from 'lucide-react';
 import EmailSignup from '../components/EmailSignup';
+import tallGreenImage from '../images/tall_green.png';
 
 const Index = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="max-w-md w-full space-y-8 p-8 bg-white shadow-lg rounded-lg">
         <div className="text-center">
-          <img src="/src/images/tall_green.png" alt="CuteMomo.com Logo" className="mx-auto h-48 w-auto object-cover" />
+          <img src={tallGreenImage} alt="CuteMomo.com Logo" className="mx-auto h-48 w-auto object-cover" />
           <h1 className="mt-6 text-3xl font-extrabold text-gray-900">CuteMomo.com</h1>
           <p className="mt-2 text-sm text-gray-600">Adorable Baby Clothing</p>
         </div>
