@@ -1,7 +1,7 @@
 import React from 'react';
 import { FacebookIcon } from 'lucide-react';
 import EmailSignup from '../components/EmailSignup';
-import tallGreenImage from '../assets/tall_green.png';
+import tallGreenImage from '../images/tall_green.png';
 
 const Index = () => {
   return (
